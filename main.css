@@ -17,12 +17,11 @@ body {
 .grid-item-1 {
     grid-area: header;
     background-color: black;
-    height: 150px;
+    height: 110px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    position: fixed;
     top: 0px;
 }
 
@@ -46,7 +45,7 @@ body {
     justify-content: center;
     width: 40%;
     height: 100%;
-    margin: -40px;
+    margin: -20px;
     margin-right: 400px;
 }
 
@@ -93,4 +92,61 @@ p.month {
     font-size: 24px;
     text-indent: 50px;
     margin-top: 130px;
+}
+
+.middle-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.posts {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.theater-image {
+    margin-left: 15px;
+    width: 250px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-left: 20px;
+}
+
+.first-line {
+    font-size: 25px;
+    margin-top: -20px;
+}
+
+.second-line {
+    font-size: 20px;
+    margin-top: -40px;
+}
+
+.other-lines {
+    font-size: 18px;
+    margin-top: -40px;
+}
+
+button {
+    margin-left: 280px;
+    color: white;
+    background-color: #ebb625;
+    border-style: solid;
+    border-color: rgb(193, 193, 193);
+    height: 55px;
+    margin-top: 90px;
+    font-size: 17px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+hr{
+    border-top: 3px solid rgb(193, 193, 193);
+    margin-top: 30px;
+    border-width: thin;
 }
