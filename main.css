@@ -100,9 +100,12 @@ p.month {
 }
 
 .posts {
-    margin-top: 10px;
+    padding-top: 40px;
     display: flex;
     flex-direction: row;
+    border-bottom: 3px solid rgb(193, 193, 193);
+    border-width: thin;
+    padding-bottom: 25px;
 }
 
 .theater-image {
@@ -143,10 +146,4 @@ button {
     font-size: 17px;
     padding-left: 15px;
     padding-right: 15px;
-}
-
-hr{
-    border-top: 3px solid rgb(193, 193, 193);
-    margin-top: 30px;
-    border-width: thin;
 }
