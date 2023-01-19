@@ -30,60 +30,53 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    margin-left: 5%;
+    margin-left: 7%;
 }
 
 .theater a {
     color: white; 
     text-decoration: none;
     padding: 15px;
-    font-size: 26px;
+    font-size: 30px;
 }
 
 .header-list {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 45%;
+    width: 40%;
     height: 100%;
     margin: -40px;
-    margin-right: 360px;
+    margin-right: 400px;
 }
 
 ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    gap: 18px;
+    justify-content: space-between;
 }
 
 .header-links a {
     color: white; 
     text-decoration: none;
-    padding: 15px;
-    font-size: 12px;
+    font-size: 17px;
 }
 
 .grid-item-2 {
     grid-area: image;
-    display: flex;
-    flex-direction: column;
+    position: relative;
 }
 
 .background {
-    z-index: -1;
-    position: fixed;
     width: 100%;
-    margin-top: 90px;
-    height: 800px;
+    height: auto;
 }
 
 .featshows {
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     color: white;
-    font-size: 160px;
-    margin-top: 390px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 155px;
+    font-size: 161px;
 }
