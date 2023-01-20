@@ -147,3 +147,62 @@ button {
     padding-left: 15px;
     padding-right: 15px;
 }
+
+.grid-item-4 {
+    grid-area: footer;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 75px;
+    margin-top: 15px;
+}
+
+.mapimg {
+    width: 400px;
+    display: flex;
+    margin-left: 50px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 110px;
+    gap: 20px;
+}
+
+.info-text {
+    font-size: 40px;
+}
+
+i {
+    font-size: 25px;
+    color: rgb(167, 109, 4);
+    margin-right: 10px;
+}
+
+.tiny {
+    font-size: 20px;
+}
+
+.shows {
+    display: flex;
+    flex-direction: column;
+    margin-left: 125px;
+    gap: 17px;
+}
+
+.shows-text {
+    font-size: 40px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    gap: 15px;
+}
+
+.social-text {
+    font-size: 40px;
+}
