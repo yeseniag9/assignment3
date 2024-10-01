@@ -150,6 +150,7 @@ button {
 
 .last {
     border: none;
+    padding-bottom: 40px;
 }
 
 .grid-item-4 {
