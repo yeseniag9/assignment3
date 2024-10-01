@@ -63,6 +63,7 @@ ul {
 }
 
 .grid-item-2 {
+    margin-top: -20px;
     grid-area: image;
     position: relative;
 }
