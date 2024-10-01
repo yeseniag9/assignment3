@@ -148,6 +148,10 @@ button {
     padding-right: 15px;
 }
 
+.last {
+    border: none;
+}
+
 .grid-item-4 {
     grid-area: footer;
     background-color: black;
