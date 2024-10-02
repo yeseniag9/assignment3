@@ -41,6 +41,10 @@ body {
     font-size: 50px;
 }
 
+.theater a:hover {
+    color: rgb(188, 158, 161);
+}
+
 .header-list {
     display: flex;
     flex-direction: column;
